@@ -1,0 +1,50 @@
+/* Counter.css */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a202c;
+  /* Dark gray background */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.counter-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.increment {
+  background-color: green;
+  color: white;
+}
+
+.increment:hover {
+  background-color: darkgreen;
+}
+
+.decrement {
+  background-color: red;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: darkred;
+}
